@@ -1,0 +1,231 @@
+div.header { 
+	background-color: lightblue;
+	color: green;
+	font-family: verdana;
+	font-size: 300%;
+	border-style: groove;
+	border-width: 5px;
+	border-color: black;
+	margin: auto;
+	font-size: 100;
+	text-align: center;
+	width: 17.5em;
+}
+div.header img{
+	background-color: transparent;
+}
+body {
+	background-image: url('images/lightbluewallpaper.jpg');
+	background-size: cover;
+	border: 1px solid transparent;
+	outline-color: black;
+	margin: auto;
+}
+
+div.bigbox1 {
+	display: -webkit-flex;
+    display: flex;
+    width: 110em;
+    height: 25em;
+	margin: auto;
+    background-color: transparent;
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    width: 17em;
+    background-color: lightblue;
+	position: relative;
+	height: 170%;
+	border: 0.3em solid green;
+}
+
+li a {
+    display: block;
+	color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+div.nav {
+	height: 50%;
+	background-color: #f1f1f1;
+	
+}
+
+div.msg {
+	background-color: lightblue;
+	margin: auto;
+	font-size: 12;
+    width: 75em;
+    border: 3px solid green;
+    padding: 1em;
+	
+}
+	
+div.signup {
+	background-color: lightblue;
+	margin: auto;
+	text-align: center;
+	border: 3px solid green;
+	font-size: 25;
+	width: 10em;
+	height: 10em;
+	
+}
+	
+div.bigbox2 {
+	display: -webkit-flex;
+    display: flex;
+	margin: auto;
+    width: 110em;
+    height: 40em;
+	margin: auto;
+    background-color: transparent;
+}
+
+div.info {
+	background-color: lightblue;
+	text-align: left;
+	border: 5px solid green;
+	width: 40em;
+	height: 25em;
+	font-size: 23;
+	padding: 0.75em;
+}
+
+p a:link, a:visited {
+	background-color: Green;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+p a:hover {
+	background-color: lightGreen;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 50em;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+input[type=reset] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 10em;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div.register {
+    border-radius: 5px;
+	width: 60em;
+	height: 39em;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+div.order {
+    border-radius: 5px;
+	width: 60em;
+	height: 43em;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+div.thnks {
+	margin: auto;
+	border: 5px solid green;
+	font-size: 55;
+	background-color: lightblue;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 20em;
+	height: 28em;
+	background-color: lightblue;
+}
+
+div.gallery:hover {
+    border: 1px solid green;
+	background-color: grey;
+	
+}
+
+div.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+	font-size: 30;
+	color: black;
+}
+div.contact {
+	margin: auto;
+	border: 5px solid green;
+	padding: 5px;
+	background-color: lightblue;
+	width: 20em;
+	font-size: 30;
+	text-align: center-left;
+}
+table, th, td {
+    border: 1px solid black;
+	width: 30em;
+	background-color: lightblue;
+	font-size: 35;
+	text-align: center;
+}
